@@ -1,0 +1,64 @@
+body {
+  background: #ff5e5e;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ff5e5e), color-stop(100%, #ef017c));
+  background: -webkit-gradient(linear, left top, right top, from(#ff5e5e), to(#ef017c));
+  background: linear-gradient(to right, #ff5e5e 0%, #ef017c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e5e', endColorstr='#ef017c', GradientType=1 );
+}
+
+main #card1 {
+  z-index: 1;
+  margin-top: 80px;
+  width: 700px;
+  height: 500px;
+}
+
+main #card1 #bg-samp {
+  z-index: 2;
+  bottom: 300px;
+  width: 100%;
+  height: 2000px;
+  background: #ff5e5e;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ff5e5e), color-stop(100%, #ef017c));
+  background: -webkit-gradient(linear, left top, right top, from(#ff5e5e), to(#ef017c));
+  background: linear-gradient(to right, #ff5e5e 0%, #ef017c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e5e', endColorstr='#ef017c', GradientType=1 );
+  -webkit-clip-path: polygon(0 0, 21% 0, 36% 100%, 0% 100%);
+          clip-path: polygon(0 0, 21% 0, 36% 100%, 0% 100%);
+}
+
+main #card1 .form-group {
+  margin-top: 50px;
+}
+
+main #card1 .card-body {
+  z-index: 4;
+}
+
+main #card1 .col {
+  z-index: 4;
+}
+
+main #card1 #btn-login {
+  width: 300px;
+  border: 0;
+  color: #F8FAFB;
+  background: #ff5e5e;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ff5e5e), color-stop(100%, #ef017c));
+  background: -webkit-gradient(linear, left top, right top, from(#ff5e5e), to(#ef017c));
+  background: linear-gradient(to right, #ff5e5e 0%, #ef017c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e5e', endColorstr='#ef017c', GradientType=1 );
+}
+
+main #card1 #btn-login:hover {
+  background-color: #ef017c 100%;
+}
+
+main .card {
+  border: 0;
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+}
+/*# sourceMappingURL=login.css.map */

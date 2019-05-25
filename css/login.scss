@@ -1,0 +1,74 @@
+body{
+    background: rgba(255,94,94,1);
+                background: -moz-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,94,94,1)), color-stop(100%, rgba(239,1,124,1)));
+                background: -webkit-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+                background: -o-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+                background: -ms-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+                background: linear-gradient(to right, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e5e', endColorstr='#ef017c', GradientType=1 );
+}
+
+header{
+    
+}
+
+main{
+    #card1{
+        z-index: 1;
+        margin-top: 80px;
+        width: 700px;
+        height: 500px;
+
+        #bg-samp{
+            z-index: 2;
+            bottom: 300px;
+            width: 100%;
+            height: 2000px;
+            background: rgba(255,94,94,1);
+            background: -moz-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,94,94,1)), color-stop(100%, rgba(239,1,124,1)));
+            background: -webkit-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+            background: -o-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+            background: -ms-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+            background: linear-gradient(to right, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e5e', endColorstr='#ef017c', GradientType=1 );
+            clip-path: polygon(0 0, 21% 0, 36% 100%, 0% 100%);
+        }
+        .form-group{
+            margin-top: 50px;
+            // margin: 0 auto;
+            // float: none;
+        }
+        .card-body{
+            z-index: 4;
+        }
+        .col{
+            z-index: 4;
+        }
+
+        #btn-login{
+            width: 300px;
+            border: 0;
+            color: #F8FAFB;
+                background: rgba(255,94,94,1);
+                background: -moz-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,94,94,1)), color-stop(100%, rgba(239,1,124,1)));
+                background: -webkit-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+                background: -o-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+                background: -ms-linear-gradient(left, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+                background: linear-gradient(to right, rgba(255,94,94,1) 0%, rgba(239,1,124,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e5e', endColorstr='#ef017c', GradientType=1 );
+
+                &:hover{
+                    background-color: rgba(239,1,124,1) 100%;
+                }
+        }
+    }
+    .card {
+        border: 0;
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        // margin-bottom: 10px; /* Added */
+    }
+}
