@@ -16,9 +16,10 @@
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
-    <link href="../assets/css/material-dashboard.css?v=2.1.1" rel="stylesheet" />
+    <link href="../dashboard/assets/css/material-dashboard.css?v=2.1.1" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <link href="../dashboard/assets/css/demo/demo.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/dash.css" />
 </head>
 
 <body class="">
@@ -175,45 +176,59 @@
                                 <div class="card-header card-header-primary">
                                     <h4 class="card-title ">Simple Table</h4>
                                     <p class="card-category"> Here is a subtitle for this table</p>
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-info dropdown-toggle"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Negara
-                                        </button>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#">Indonesia</a>
-                                            <a class="dropdown-item" href="#">Inggris</a>
-                                            <a class="dropdown-item" href="#">Jepang</a>
-                                            <!-- <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Separated link</a> -->
+                                    <div class="form-row">
+                                        <div class="form-group col-md-2">
+                                            <input id="input1" type="text" class="form-control"
+                                                id="formGroupExampleInput" placeholder="Example input">
                                         </div>
-                                    </div>
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-info dropdown-toggle"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Bahasa
-                                        </button>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#">Indonesia</a>
-                                            <a class="dropdown-item" href="#">Inggris (US)</a>
-                                            <a class="dropdown-item" href="#">Spanyol</a>
-                                            <!-- <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item" href="#">Separated link</a> -->
+                                        <div class="form-group col-md-2">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-info dropdown-toggle"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Bahasa
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Indonesia</a>
+                                                    <a class="dropdown-item" href="#">Inggris (US)</a>
+                                                    <a class="dropdown-item" href="#">Spanyol</a>
+                                                    <!-- <div class="dropdown-divider"></div>
+                                                                            <a class="dropdown-item" href="#">Separated link</a> -->
+                                                </div>
+
+                                                <div class="btn-group" style="margin-left: 10px;">
+                                                    <button type="button" class="btn btn-info dropdown-toggle"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
+                                                        Negara
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Indonesia</a>
+                                                        <a class="dropdown-item" href="#">Inggris</a>
+                                                        <a class="dropdown-item" href="#">Jepang</a>
+                                                        <!-- <div class="dropdown-divider"></div>
+                                                                                    <a class="dropdown-item" href="#">Separated link</a> -->
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
+
+
                                     </div>
-                                    <div class="btn-group">
+
+                                </div>
+
+                                <!-- <div class="btn-group">
                                         <button type="button" class="btn btn-info" aria-haspopup="true"
                                             aria-expanded="false">
                                             Tanggal
                                         </button>
-                                        <!-- <div class="dropdown-menu">
+                                        <div class="dropdown-menu">
                                             <a class="dropdown-item" href="#">Indonesia</a>
                                             <a class="dropdown-item" href="#">Inggris</a>
                                             <a class="dropdown-item" href="#">Jepang</a> -->
-                                        <!-- <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item" href="#">Separated link</a> -->
-                                    </div>
-                                </div>
+                                <!-- <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">Separated link</a>
+                                    </div> -->
                                 <div class="card-body">
                                     <div class="table-responsive">
                                         <table class="table">
@@ -342,47 +357,48 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="container-fluid">
-                <nav class="float-left">
-                    <ul>
-                        <li>
-                            <a href="https://www.creative-tim.com">
-                                Creative Tim
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://creative-tim.com/presentation">
-                                About Us
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://blog.creative-tim.com">
-                                Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.creative-tim.com/license">
-                                Licenses
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="copyright float-right">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>, made with <i class="material-icons">favorite</i> by
-                    <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
-                </div>
+    </div>
+    <footer class="footer">
+        <div class="container-fluid">
+            <nav class="float-left">
+                <ul>
+                    <li>
+                        <a href="https://www.creative-tim.com">
+                            Creative Tim
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://creative-tim.com/presentation">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://blog.creative-tim.com">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.creative-tim.com/license">
+                            Licenses
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright float-right">
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>, made with <i class="material-icons">favorite</i> by
+                <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
             </div>
-        </footer>
+        </div>
+    </footer>
     </div>
     </div>
     <div class="fixed-plugin">
